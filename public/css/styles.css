@@ -503,18 +503,7 @@ body {
 		justify-content: center;
 		align-items: center;
 	}
-	.product-list__product {
-		width: 26rem;
-	}
-	.product-list__product:hover {
-		/* probando clases anidadas al estilo SASS */
-		.shipping-container {
-			margin-left: 20rem;
-		}
 
-		transform: scale(1.03);
-		transition: 300ms;
-	}
 	.footer__container {
 		padding: 5rem;
 		display: flex;
@@ -543,12 +532,12 @@ body {
 	}
 
 	.product-list__product {
-		width: 18rem;
+		width: 15rem;
 	}
 	.product-list__product:hover {
 		/* probando clases anidadas al estilo SASS */
 		.shipping-container {
-			margin-left: 20rem;
+			margin-left: 12rem;
 		}
 	}
 	.footer__container {
