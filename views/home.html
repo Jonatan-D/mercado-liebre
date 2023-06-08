@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon" />
+		<script src="https://kit.fontawesome.com/4e1b67b613.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="/css/styles.css" />
+		<title>Mercado Liebre</title>
+	</head>
+	<body>
+		<header>
+			<section class="NavBar">
+				<div class="NavBar__logo">
+					<a href="/">
+						<img class="NavBar__logo--img" src="/img/logo-mercado-liebre.svg" alt="logo" />
+					</a>
+				</div>
+				<div class="navbar-container">
+					<div class="navbar-top">
+						<div class="NavBar--search push-right">
+							<form class="search--form">
+								<input type="text" class="search" placeholder="Buscar productos, marcas y más..." />
+								<button class="searchButton">
+									<i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+								</button>
+							</form>
+						</div>
+						<div class="push-right">
+							<a href="#" class="link--credito nav-link"
+								><i class="fa-solid fa-hand-holding-dollar margin-right-icon"></i> Comprá en cuotas y
+								sin tarjeta de crédito</a
+							>
+						</div>
+					</div>
+					<input type="checkbox" id="menu-toggle" />
+					<label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"> </i></label>
+					<div class="navbar-bottom">
+						<div class="NavBar__center push-right">
+							<nav class="NavBar__nav1 menu">
+								<ul>
+									<li class="navBar__item">
+										<a href="#" class="nav-link alternate-color"> Ofertas</a>
+									</li>
+									<li class="navBar__item">
+										<a href="#" class="nav-link alternate-color">Tiendas Oficiales</a>
+									</li>
+									<li class="navBar__item">
+										<a href="#" class="nav-link alternate-color">Vender </a>
+									</li>
+									<li class="navBar__item"><a href="#" class="nav-link alternate-color">Ayuda </a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="NavBar__elementsToTheRight push-right">
+							<div class="NavBar__container-right">
+								<nav class="menu login-menu">
+									<ul>
+										<li class="navBar__item">
+											<a href="/register" class="nav-link alternate-color">
+												<i class="fa-solid fa-id-card margin-right-icon"></i>
+												Creá tu cuenta
+											</a>
+										</li>
+										<li class="navBar__item">
+											<a href="/login" class="nav-link alternate-color"
+												><i class="fa-solid fa-arrow-right-to-bracket margin-right-icon"></i>
+												Ingresá
+											</a>
+										</li>
+										<li class="navBar__item">
+											<a href="/" class="nav-link alternate-color">
+												<i class="fa-solid fa-basket-shopping margin-right-icon"></i>
+												Mis compras
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main class="main">
+			<div class="banner-container">
+				<img src="img/img-home-banner.jpg" alt="banner" class="banner" />
+			</div>
+			<div class="main__container">
+				<section class="product-list last__visit">
+					<p class="lastVisit-offers">Basado en tu última visita</p>
+					<div class="product-list__container">
+						<div class="product-list__product">
+							<div>
+								<img src="/img/img-cafetera-moulinex.jpg" class="product-img" alt="producto" />
+							</div>
+							<div class="product-description">
+								<div class="shipping-container">
+									<i class="fa-solid fa-truck truck"></i>
+								</div>
+								<h5 class="product-name">Cafetera Moulinex</h5>
+								<p class="discount">10% off</p>
+								<p class="price">$43500</p>
+							</div>
+						</div>
+						<div class="product-list__product">
+							<img src="/img/img-macbook-pro-2019.jpg" alt="producto" class="product-img" />
+							<div class="product-description">
+								<div class="shipping-container">
+									<i class="fa-solid fa-truck truck"></i>
+								</div>
+								<h5 class="product-name">Macbook Air Pro</h5>
+								<p class="discount">5% off</p>
+								<p class="price">$357000</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="product-list offers_list">
+					<p>Ofertas</p>
+					<div class="product-list__container">
+						<div class="product-list__product">
+							<img src="/img/img-samsung-galaxy-s10.jpg" alt="producto" class="product-img" />
+							<div class="product-description">
+								<div class="shipping-container">
+									<i class="fa-solid fa-truck truck"></i>
+								</div>
+								<h5 class="product-name">Samsung Galaxy S10</h5>
+								<p class="discount">25% off</p>
+								<p class="price">$146000</p>
+							</div>
+						</div>
+						<div class="product-list__product">
+							<img src="/img/img-tv-samsung-smart.jpg" alt="producto" class="product-img" />
+							<div class="product-description">
+								<div class="shipping-container">
+									<i class="fa-solid fa-truck truck"></i>
+								</div>
+								<h5 class="product-name">Smart TV Samsung 4K</h5>
+								<p class="discount">30% off</p>
+								<p class="price">$28744</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__description">
+					<div class="footer_description__icon">
+						<i class="fa-solid fa-credit-card icon-footer"></i>
+					</div>
+
+					<h4 class="title">Pagá con tarjeta o efectivo</h4>
+
+					<p class="description--text">
+						Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago.
+						¡Y siempre es seguro!
+					</p>
+				</div>
+				<div class="footer__description">
+					<div class="footer_description__icon">
+						<i class="fa-solid fa-gift icon-footer"></i>
+					</div>
+					<h4 class="title">Envío gratis desde $ 2.500</h4>
+
+					<p class="description--text">
+						Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es
+						un beneficio de Mercado Puntos.
+					</p>
+				</div>
+				<div class="footer__description">
+					<div class="footer_description__icon">
+						<i class="fa-solid fa-user-shield icon-footer"></i>
+					</div>
+					<h4 class="title">Seguridad, de principio a fin</h4>
+
+					<p class="description--text">
+						¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás
+						siempre protegid@.
+					</p>
+				</div>
+			</div>
+			<div class="footer__description--copyright">
+				<div class="compyright-container">
+					<h4 class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+
+					<p class="description--text"></p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
